@@ -1,0 +1,4 @@
+ctx = context 上下文
+
+input: 1   (user,id,at_server,at_channel)
+output:2
