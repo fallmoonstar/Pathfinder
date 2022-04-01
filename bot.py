@@ -13,8 +13,8 @@ intents = discord.Intents.default()
 intents.members = True
 
 
-#BOT指令為$
-bot = commands.Bot(command_prefix='$',intents = intents)
+#BOT指令為^
+bot = commands.Bot(command_prefix='^',intents = intents)
 #上線後回傳到黑窗
 @bot.event
 async def on_ready():
@@ -31,16 +31,16 @@ async def on_member_remove(member):
     channel = bot.get_channel(int(jdata["Leave_Channel"]))
     await channel.send(f"@everyone {member} leave!")
     print(f"{member} leave!")
-#  BOT$指令
+#  BOT^指令
 @bot.command()
 async def ping(ctx):
     await ctx.send(f"{round(bot.latency*1000)} (ms)")
 
 @bot.command()
-async def number5(ctx):
-    random_N5 = random.choice(jdata["N5"])
-    N5 = str(random_N5)
-    await ctx.send(N5)
+async def number3(ctx):
+    random_N3 = random.choice(jdata["N3"])
+    N3 = str(random_N3)
+    await ctx.send(N3)
 
 @bot.command()
 async def 早安(ctx):
