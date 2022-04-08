@@ -1,9 +1,13 @@
 {
-    "TOKEN": "自己的Token",
+    "TOKEN": "OTU5MDU1NjYwMzc1NDc0MjM2.YkWULw.JoDfyTW6YZ189tvqL4Rs5WZGvW0",
     "Welcome_Channel": "921239567611351093",
     "Leave_Channel": "921239567611351094",
-    "pic": ["C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1211861.jpg",
+    "ame": ["C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1211861.jpg",
             "C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1206381.png",
             "C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1211847.jpg"],
-    "N3": ["哈哈是我啦"]
+    "url_ame":["https://truth.bahamut.com.tw/artwork/202105/335dad75e65c5ca5f124d295af4c1ed8.PNG?w=1000",
+               "https://pbs.twimg.com/media/EiyD1qNVkAEGD4F.jpg:large"],
+    "hope":["C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\hensin.gif",
+            "C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\hensen.gif"],
+    "N3": ["哈哈是我啦","我很可愛請給我錢"]
 }
