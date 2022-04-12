@@ -20,18 +20,7 @@ bot = commands.Bot(command_prefix='^',intents = intents)
 @bot.event
 async def on_ready():
     print(">> BOT is online <<")
-#BOT事件 加入與離開   
-@bot.event
-async def on_member_join(member):
-    channel = bot.get_channel(int(jdata["Welcome_Channel"]))
-    await channel.send(f"@here {member} join!")
-    print(f"{member} join!")
 
-@bot.event
-async def on_member_remove(member):
-    channel = bot.get_channel(int(jdata["Leave_Channel"]))
-    await channel.send(f"@here {member} leave!")
-    print(f"{member} leave!")
 
 @bot.command()
 async def load(ctx, extension):
