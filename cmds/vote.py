@@ -29,7 +29,7 @@ class Vote(Cog_Extension):
                 embed.add_field(name = list[0], value = "\u200b", inline = False)
                 msg = await ctx.send(embed=embed)
                 await msg.add_reaction(":ok:")
-                await msg.add_reaction(":ng:")
+                await msg.add_reaction("🆖")
 
             await ctx.message.delete()
 

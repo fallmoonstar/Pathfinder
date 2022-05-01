@@ -4,6 +4,7 @@ from core.classes import Cog_Extension
 import json
 import datetime
 
+
 class Main(Cog_Extension):
 
     @commands.command()
@@ -15,12 +16,13 @@ class Main(Cog_Extension):
         await ctx.send("Hi Friend")
 
     @commands.command()
-    async def 早安(self, ctx):
-        await ctx.send(f"早安吶早安吶")
+    async def 說(self, ctx, *, msg):
+        await ctx.message.delete()
+        await ctx.send(msg)
 
     @commands.command()
-    async def 晚安(self, ctx):
-        await ctx.send(f"祝好夢")
+    async def clean(self, ctx, num: int):
+      await ctx.channel.purge(limit=num+1)
 
     @commands.command()
     async def 發財(self, ctx):
@@ -41,4 +43,4 @@ class Main(Cog_Extension):
         await ctx.send(embed=embed)
 
 def setup(bot):
-    bot.add_cog(Main(bot))
+    bot.add_cog(Main(bot)) 

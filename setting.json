@@ -1,11 +1,8 @@
 {
-    "TOKEN": "自己的",
+    "TOKEN": "OTU5MDU1NjYwMzc1NDc0MjM2.YkWULw.-uJR2Q7sy5iJAXxp4D-4b_SH9ls",
     "Welcome_Channel": "921239567611351093",
     "Leave_Channel": "921239567611351094",
-    "ame": ["C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1211861.jpg",
-            "C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1206381.png",
-            "C:\\Users\\User\\Documents\\GitHub\\Pathfinder\\Pathfinder\\PIC\\1211847.jpg",
-            "https://pbs.twimg.com/media/FPj4o6xX0AQrFRv?format=jpg&name=large",
+    "ame": ["https://pbs.twimg.com/media/FPj4o6xX0AQrFRv?format=jpg&name=large",
             "https://pbs.twimg.com/media/FPz-12VVEAE4ziv?format=jpg&name=large",
             "https://pbs.twimg.com/media/FPfvLgcaAAcrsAW?format=jpg&name=large",
             "https://pbs.twimg.com/media/FPwOxPSacAIImE3?format=jpg&name=large",
@@ -16,7 +13,8 @@
             "https://pbs.twimg.com/media/EiyD1qNVkAEGD4F.jpg:large"],
     "icon":["https://pbs.twimg.com/media/FP3S7dgVIAMwqxM?format=jpg&name=medium"],
     "18":["https://s3.getstickerpack.com/storage/uploads/sticker-pack/hololive-en-2/sticker_25.png?bf341c04845f7d1948c71a9dcd9948bb&d=200x2000"],
-    "hope":["https://p5.toutiaoimg.com/img/tos-cn-i-0022/ed9a66f1ba864fabbc2dac862b8e7b80~tplv-obj:600:846.gif?from=post"],
-    "smile":["http://i.imgur.com/RpUNLEY.jpg"],
-    "N3": ["哈哈是我啦","我很可愛請給我錢"]
-}
+    "hope":["https://p5.toutiaoimg.com/img/tos-cn-i-0022/ed9a66f1ba864fabbc2dac862b8e7b80~tplv-obj:600:846.gif?from=post"
+            ],
+    "N3": ["哈哈是我啦","我很可愛請給我錢"],
+    "song": ["ECHO"]
+  }

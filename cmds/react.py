@@ -18,7 +18,7 @@ class React(Cog_Extension):
     async def 願望(self, ctx):
         random_hope = random.choice(jdata["hope"])
         await ctx.send(random_hope)
-
+      
     @commands.command()
     async def 頭貼(self, ctx):
         random_icon = random.choice(jdata["icon"])
@@ -29,6 +29,11 @@ class React(Cog_Extension):
         random_18 = random.choice(jdata["18"])
         await ctx.send(random_18)
         await ctx.send(f"不可以色色ˋAˊ")
+    @commands.command()
+    async def 最近在聽的歌(self, ctx):
+      random_song = random.choice(jdata["song"])
+      await ctx.send(random_song)
+
 
 def setup(bot):
     bot.add_cog(React(bot)) 
